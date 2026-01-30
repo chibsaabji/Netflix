@@ -1,6 +1,6 @@
 # Netflix Landing Page Clone (2022)
 
-> **Note:** This is a static frontend clone of the Netflix 2022 Landing Page created for educational purposes.
+> **Note:** This is a static frontend clone of the Netflix 2022 Landing Page created for educational purposes. Moreover I still working on this and I will Update with time. 
 
 ## 📄 Project Overview
 
@@ -12,8 +12,8 @@ This project is a responsive recreation of the Netflix landing page using **Boot
 
 ### 🌟 Key Features
 
-* **Bootstrap Grid System:** Uses the Bootstrap container and grid system for a fully responsive layout across mobile, tablet, and desktop.
-* **Bootstrap Components:** Utilizes the **Bootstrap Accordion** for the FAQ section and **Input Groups** for the email signup form.
+* **Responsive Layout:** Fully responsive design achieved using **CSS Flexbox & Media Queries** to adapt perfectly to mobile, tablet, and desktop screens. 
+* **Bootstrap Icons:** Integrated Bootstrap Icons for high-quality, scalable navigation arrows and UI elements.
 * **Custom Styling:** Overrides default Bootstrap styles to match Netflix’s specific color palette (`#e50914`) and typography.
 * **Background Overlay:** Implements the signature Netflix dark gradient overlay using CSS.
 
@@ -27,7 +27,7 @@ This project is a responsive recreation of the Netflix landing page using **Boot
 
 ## 💻 Installation & Setup
 
-Since this project uses static HTML and a CDN for Bootstrap, no package installation is required.
+Since this project uses static HTML and CSS, no package installation is required.
 
 1.  **Clone the repository**
     ```bash
@@ -42,6 +42,9 @@ Since this project uses static HTML and a CDN for Bootstrap, no package installa
 3.  **Run the Project**
     * Simply double-click `Netflix.html` to open it in your browser.
     * **OR** use the "Live Server" extension in VS Code for hot-reloading.
+
+        
+---
 
 ## 🤝 Contributing
 

@@ -25,32 +25,22 @@ This project is a responsive recreation of the Netflix landing page using **Boot
 * **Icons:** FontAwesome / Bootstrap Icons
 * **Editor:** VS Code
 
-## 🚀 Live Demo
-
-[**View Live Demo Here**](#) *(Replace this text with your GitHub Pages or Netlify link)*
-
-## 📸 Screenshots
-
-| Desktop View | Mobile View |
-|:---:|:---:|
-| ![Desktop](./assets/desktop-preview.png) | ![Mobile](./assets/mobile-preview.png) |
-
 ## 💻 Installation & Setup
 
 Since this project uses static HTML and a CDN for Bootstrap, no package installation is required.
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/chibsaabji/netflix.git](https://github.com/chibsaabji/netflix.git)
+    git clone (https://github.com/chibsaabji/Netflix.git)
     ```
 
 2.  **Navigate to the folder**
     ```bash
-    cd netflix-clone-2022
+    cd Netflix
     ```
 
 3.  **Run the Project**
-    * Simply double-click `index.html` to open it in your browser.
+    * Simply double-click `Netflix.html` to open it in your browser.
     * **OR** use the "Live Server" extension in VS Code for hot-reloading.
 
 ## 🤝 Contributing

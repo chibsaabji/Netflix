@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+}
+body {
+    background-color: black;
+}
+
+.Main {
+    background-image: url(Assets/Images/bg.jpg);
+    background-position: center center;
+    background-size: max(100vw, 1200px);
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    height: 650px;
+}
+
+
+
+.logo img {
+    top:15px;
+    left:20px;
+    position: absolute;
+}
+.logo img:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}
+
+.Lang button{
+    position: absolute;
+    right: 180px;
+    top: 50px;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;   
+}
+
+.Lang button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transform:scale(1.09);
+    transition: all 0.2s ease;
+}
+
+.sign-in-button button {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    padding: 8px 16px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sign-in-button button:hover {
+    background-color: #f6121d;
+    transform:scale(1.09);
+    transition: all 0.2s ease;
+}
+
+.hero{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top:40%;
+    left: 25%;
+    right: 25%;
+    color: white;
+}
+
+.hero .heading{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 10px 0;
+    cursor: default;
+}
+
+.hero .second-heading{
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    cursor: default;
+}
+
+.hero .third-heading{
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    cursor: default;
+    
+}
+
+.email input{
+    color: white;
+    width: 500px;
+    height: 50px;
+    padding: 0 0 0 10px;
+}
+
+.email .RedButton{
+    width: 150px;
+    height: 50px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.email .RedButton:hover {
+    background-color: #f6121d;
+}
+
+.speration{
+    height:10px;
+    width: 99vw;
+    background-color: rgba(91, 91, 91, 1);
+}
+
+.Main02{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+
+.Main-Text {
+    width: 50%;
+    padding: 100px 200px;
+    
+}
+.Main-Text h4 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: default;
+}
+
+.Main-Text span {
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: default;
+}
+
+.tv-image{
+    position: relative;
+    right: 200px;
+    bottom: 20px;
+}
+.tv-image img{
+    width: 400px;
+    position: relative;
+    z-index: 1;
+}
+.tv-image video {
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    width: 300px;
+    z-index: 0;
+}
+.Section-02{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+
+.Section-Img{
+    position: relative;
+    left: 125px;
+    width: 50%;
+}
+.Section-Img img {
+    left: 250px;
+    width: auto;
+    height: 350px;
+}
+.Section-Text {
+    top: 115px;
+    width: 50%;
+}
+
+.Section-Text h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: default;
+}
+.Section-Text span {
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: default;
+}
+.Section-03{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+.Section-Text03 {
+    width: 50%;
+    padding: 100px 200px;
+    
+}
+.Section-Text03 h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: default;
+}
+
+.Section-Text03 span {
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: default;
+}
+.Section-Img03{
+    position: relative;
+    right: 200px;
+    bottom: 20px;
+    
+}
+.Section-Img03 img {
+    position: relative;
+    width: 400px;
+    z-index: 1;
+}
+.Section-Img03 video {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    width: 300px;
+    z-index: 0;
+}
+
+.Section-04{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+.Section-Img04{
+    position: relative;
+    left: 200px;
+    width: 50%;
+}
+.Section-Img04 img {
+    width: 400px;
+    height: auto;
+}
+.Section-Text04 {
+    position: relative;
+    top: 10px;
+    right: 200px;
+}
+.Section-Text04 h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: default;
+}
+.Section-Text04 span {
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: default;
+}
+
+.Faq{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Faq h4 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: default;
+    margin: 50px 0 20px 0;
+}
+.FAQ-List button{
+    width: 80%;
+    width:700px;
+    height: 60px;
+    max-width: 700px;
+    background-color: rgba(51, 51, 51, 1);
+    border: none;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FAQ-List button:hover {
+    background-color: rgba(91, 91, 91, 1);
+    transition: all 0.2s ease;
+}
+
+.Faq-Email{
+    margin: 50px 0;
+}
+footer{
+    background-color: black;
+    overflow-x: hidden;
+}
+.footer{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    padding: 20px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 20px 200px;
+}
+
+.footer-links a{
+   display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: gray;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 14px;   
+}
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-lang{
+    position: relative;
+    margin: 30px;
+    bottom: 20px;
+    left: 180px;
+}
+.footer-lang button{
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.footer-lang button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: black;
+    }
+  .Main{
+    background-image: url(Assets/Images/bg.jpg);
+    background-position: top right;
+    background-size: max(100vw, 1200px);
+    background-repeat: no-repeat;
+    position: relative;
+    background-blend-mode: darken;
+    height: 650px;
+    }
+
+    .logo img {
+    width: 100px;
+    top:15px;
+    left:20px;
+    position: absolute;
+}
+
+   .logo img:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}
+
+.Lang button{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 8px;
+    border-radius: 3px;
+    cursor: pointer;   
+}
+
+.Lang button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transform:scale(1.09);
+    transition: all 0.2s ease;
+}
+
+.sign-in-button button {
+    position: absolute;
+    font-size: 8px;
+    height: 30px;
+    width: 50px;
+    right: 30px;
+    top: 30px;
+    padding: 8px 8px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sign-in-button button:hover {
+    background-color: #f6121d;
+    transform:scale(1.09);
+    transition: all 0.2s ease;
+}
+
+.hero{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top:25%;
+    color: white;
+}
+
+.hero .heading{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    cursor: default;
+}
+
+.hero .second-heading{
+    font-size: 16px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    cursor: default;
+}
+
+.hero .third-heading{
+    font-size: 12px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    cursor: default;
+    
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email input{
+    color: white;
+    width: 200px;
+    height: 40px;
+    padding: 0 0 0 10px;
+    font-size: 12px;
+}
+
+.email .RedButton{
+    width: 100px;
+    height: 40px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.email .RedButton:hover {
+    background-color: #f6121d;
+}
+.speration{
+    height:5px;
+    width: 100vw;
+    background-color: rgba(91, 91, 91, 1);
+}
+
+.Main02{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+
+.Main-Text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Main-Text h4 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin: 10px;
+    font-weight: 700;
+    left: 30px;
+    bottom: 0px;
+    text-align: center;
+    cursor: default;
+}
+
+.Main-Text span {
+    position: absolute;
+    right: 50px;
+    bottom: -70px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: default;
+}
+
+.tv-image{
+    position: relative;
+    right: 360px;
+    bottom: 100px;
+}
+.tv-image img{
+    width: 350px;
+    position: relative;
+    z-index: 1;
+}
+.tv-image video {
+    position: absolute;
+    top: 55px;
+    left: 48px;
+    width: 250px;
+    z-index: 0;
+}
+.Section-02{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+
+.Section-Img{
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    width: 50%;
+}
+.Section-Img img {
+    width: auto;
+    height: 250px;
+}
+.Section-Text {
+    position: relative;
+    top: 100px;
+    right: 100px;
+    text-align: center;
+}
+
+.Section-Text h4 {
+    margin: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: default;
+}
+.Section-Text span {
+    margin: 10px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: default;
+}
+.Section-03{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+.Section-Text03 {
+
+   
+}
+.Section-Text03 h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: default;
+}
+
+.Section-Text03 span {
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: default;
+}
+.Section-Img03{
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    
+}
+.Section-Img03 img {
+    position: relative;
+    width: 350px;
+    z-index: 1;
+}
+.Section-Img03 video {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    width: 300px;
+    z-index: 0;
+}
+
+.Section-04{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+.Section-Img04{
+    position: relative;
+    left: 200px;
+}
+.Section-Img04 img {
+    position: relative;
+    width: 250px;
+    top: -110px;
+    right: 100px;
+    height: auto;
+}
+.Section-Text04 {
+    position: relative;
+    left: -90px;
+    bottom: ;
+    text-align: center;
+}
+.Section-Text04 h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: default;
+}
+.Section-Text04 span {
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: default;
+}
+
+.Faq{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Faq h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: default;
+    margin: 50px 0 20px 0;
+}
+.FAQ-List button{
+    width: 80%;
+    width:400px;
+    height: 60px;
+    max-width: 700px;
+    background-color: rgba(51, 51, 51, 1);
+    border: none;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FAQ-List button:hover {
+    background-color: rgba(91, 91, 91, 1);
+    transition: all 0.2s ease;
+}
+
+.Faq-Email{
+    display: flex;
+    flex-direction:column ;
+    margin: 50px;
+}
+
+footer{
+    background-color: black;
+    overflow-x: hidden;
+}
+.footer{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.footer-content{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    left: -100px;
+}
+
+.footer-links a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-lang{
+    position: relative;
+    margin: 30px;
+    bottom: 20px;
+    left: 120px;
+}
+.footer-lang button{
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.footer-lang button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+}
